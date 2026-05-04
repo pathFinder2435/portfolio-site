@@ -1,10 +1,33 @@
-<h1>Contact Me</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 
-<form action="">
-  <label for="name">Name</label>
-  <input type="text" id="name" /> <br />
-  <label for="email">Email</label>
-  <input type="email" name="email" id="email" />
-  <label for="message">Message</label>
-  <label for="text" id="text"></label>
-</form>
+    <main>
+      <h1>Contact Us</h1>
+      <!-- Primary contact form for inquiries -->
+      <form>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+  </body>
+</html>
